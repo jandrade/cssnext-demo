@@ -1,0 +1,31 @@
+{
+  "name": "cssnext",
+  "version": "0.0.0",
+  "description": "Testing cssnext (PostCSS)",
+  "main": "index.js",
+  "scripts": {
+    "css": "postcss -w -c config/postcss.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandrade/cssnext-demo.git"
+  },
+  "keywords": [
+    "cssnext",
+    "postcss",
+    "modern",
+    "test"
+  ],
+  "author": "Juan David Andrade <juandavidandrade@gmail.com> (http://jdandrade.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jandrade/cssnext-demo/issues"
+  },
+  "homepage": "https://github.com/jandrade/cssnext-demo",
+  "devDependencies": {
+    "postcss": "5.0.21",
+    "postcss-cli": "2.5.2",
+    "postcss-cssnext": "2.5.2"
+  }
+}

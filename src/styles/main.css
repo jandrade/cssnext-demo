@@ -1,0 +1,19 @@
+:root {
+  --font-size: 20px;
+}
+
+@custom-media --small-viewport (max-width: 30em);
+
+body {
+  font-size: var(--font-size);
+}
+
+@media (--small-viewport) {
+  body {
+    background-color: blue;
+  }
+}
+
+p {
+  width: calc(100% - var(--font-size));
+}

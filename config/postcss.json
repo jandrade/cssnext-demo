@@ -1,0 +1,7 @@
+{
+  "use": [
+    "postcss-cssnext"
+  ],
+  "input": "src/styles/main.css",
+  "output": "public/styles/built.css"
+}

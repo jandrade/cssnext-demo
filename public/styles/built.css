@@ -1,0 +1,13 @@
+body {
+  font-size: 20px;
+}
+
+@media (max-width: 30em) {
+  body {
+    background-color: blue;
+  }
+}
+
+p {
+  width: calc(100% - 20px);
+}
