@@ -4,7 +4,7 @@
   "description": "Testing cssnext (PostCSS)",
   "main": "index.js",
   "scripts": {
-    "css": "postcss -w -c config/postcss.json",
+    "css": "postcss -c config/postcss.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +26,8 @@
   "devDependencies": {
     "postcss": "5.0.21",
     "postcss-cli": "2.5.2",
-    "postcss-cssnext": "2.5.2"
+    "postcss-cssnext": "2.5.2",
+    "stylelint": "6.3.3",
+    "stylelint-config-standard": "7.0.0"
   }
 }

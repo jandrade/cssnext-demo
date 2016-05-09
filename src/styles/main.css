@@ -10,7 +10,7 @@ body {
 
 @media (--small-viewport) {
   body {
-    background-color: blue;
+    background-color: #f00;
   }
 }
 
