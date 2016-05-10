@@ -1,5 +1,6 @@
 {
   "use": [
+    "stylelint",
     "postcss-import",
     "postcss-cssnext",
     "css-mqpacker"
@@ -10,5 +11,6 @@
     "browsers": ["last 2 versions"]
   },
   "map": true,
+  "warnForDuplicates": false,
   "watch": true
 }

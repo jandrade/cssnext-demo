@@ -3,6 +3,12 @@
  */
 :root {
   --font-size: 20px;
+
+  /**
+   * Colors Palette
+   */
+  --color-light: #ff9;
+  --color-dark: #f9f;
 }
 
 /**

@@ -10,20 +10,24 @@ body {
   }
 }
 
-div {
-  display: flex;
-}
-
-p {
+.block {
   background-color: #ff9;
   margin: 0 auto;
   padding: 1em;
   text-align: center;
   width: calc(100% - var(--font-size));
+
+  &__title {
+    background-color: #9ff;
+  }
+
+  &--active {
+    background-color: #f9f;
+  }
 }
 
 @media (--small-viewport) {
-  p {
+  .block {
     width: 50%;
   }
 }

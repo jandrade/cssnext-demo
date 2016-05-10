@@ -25,6 +25,7 @@
   "homepage": "https://github.com/jandrade/cssnext-demo",
   "devDependencies": {
     "css-mqpacker": "5.0.1",
+    "cssnano": "3.5.2",
     "postcss": "5.0.21",
     "postcss-cli": "2.5.2",
     "postcss-cssnext": "2.5.2",
