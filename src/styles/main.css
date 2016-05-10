@@ -1,8 +1,4 @@
-:root {
-  --font-size: 20px;
-}
-
-@custom-media --small-viewport (max-width: 30em);
+@import "settings/variables.css";
 
 body {
   font-size: var(--font-size);
@@ -14,6 +10,20 @@ body {
   }
 }
 
+div {
+  display: flex;
+}
+
 p {
+  background-color: #ff9;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
   width: calc(100% - var(--font-size));
+}
+
+@media (--small-viewport) {
+  p {
+    width: 50%;
+  }
 }

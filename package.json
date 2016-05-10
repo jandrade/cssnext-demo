@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/jandrade/cssnext-demo",
   "devDependencies": {
+    "css-mqpacker": "5.0.1",
     "postcss": "5.0.21",
     "postcss-cli": "2.5.2",
     "postcss-cssnext": "2.5.2",
+    "postcss-import": "8.1.2",
     "stylelint": "6.3.3",
     "stylelint-config-standard": "7.0.0"
   }
